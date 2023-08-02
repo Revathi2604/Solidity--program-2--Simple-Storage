@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/One.sol": "SimpleSmartContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/One.sol": {
+			"keccak256": "0xf0dca062440badf243cba69fd0e19e3eb8115db8560f30b5c565ba604272e6b7",
+			"urls": [
+				"bzz-raw://474afb0e172b837d9e5e14c184808f6e691f2d114698241111550995b4a5638f",
+				"dweb:/ipfs/QmPWnx4GJosVwPTdHhjYayetvvuWzAeE8J4wukgtsNTyu9"
+			]
+		}
+	},
+	"version": 1
+}
