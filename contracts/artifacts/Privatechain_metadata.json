@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Privatechain.sol": "Privatechain"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Privatechain.sol": {
+			"keccak256": "0xe416e4c6bafe257a2aea61aa526a3641f8b20f817d8d63d9ac0f21e2b91ab906",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c22e56d7980f9be07330e08e9ee0b6814a6727170b97860852d44e6a00fa5a4",
+				"dweb:/ipfs/QmboSLAMxsS8X8gwp379BfWgnNPXiMudF9MiuuajkXLMYz"
+			]
+		}
+	},
+	"version": 1
+}
